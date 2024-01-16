@@ -28,26 +28,3 @@ print(CheckID(id))
 
 
 
-# id=int (input (" input a ID " ))
-# id=id
-# CheckDigit=(id%10)
-# i=(id//10)
-# a=0
-# b=0
-# c=0
-
-# while(i>0):
-#     if( (a%2)==0):
-#         b=( (i%10)*2)
-#         if(b>9):
-#             b=( 1+(b%10))
-#     else:
-#         b=(i%10)
-#     a=a+1
-#     c=c+b
-#     i=i//10
-    
-# if( 10-(c%10)==CheckDigit) or (CheckDigit==0==(c%10) ):
-#     print("Check digit is valid!")
-# else:
-#     print("Check digit is not valid!")
